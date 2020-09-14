@@ -6,6 +6,7 @@ import py.com.progweb.fidelizacionclientes.model.Cliente;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
+import java.text.ParseException;
 
 @Path("cliente")
 @Consumes("application/json")
@@ -36,4 +37,22 @@ public class ClienteREST {
         this.clienteDAO.modificar(id,c);
         return Response.ok().build();
     }
+
+  @GET
+  @Path("/nombre")
+  public Response listarPorNombre(@QueryParam("nombre") String nombre){
+    return Response.ok(clienteDAO.listapornombre(nombre)).build();
+  }
+
+  @GET
+  @Path("/apellido")
+  public Response listarPorApellido(@QueryParam("apellido") String apellido){
+    return Response.ok(clienteDAO.listaporapellido(apellido)).build();
+  }
+
+  @GET
+  @Path("/cumple")
+  public Response listarPorCumple(@QueryParam("cumple") String fechanacimiento) throws ParseException {
+    return Response.ok(clienteDAO.listaporcumple(fechanacimiento)).build();
+  }
 }

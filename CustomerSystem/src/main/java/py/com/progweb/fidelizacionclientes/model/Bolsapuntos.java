@@ -19,10 +19,6 @@ public class Bolsapuntos {
     @SequenceGenerator(name = "bolsa_puntos_id_seq", sequenceName = "bolsa_puntos_id_seq", allocationSize = 0)
     private Integer id_bolsa_puntos;
 
-    //id perteneciente a la tabla de cliente
-    @JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
-    @ManyToOne(optional = false)
-    private Cliente cliente;
 
     @Column(name = "fecha_asignacion_puntaje")
     @Basic (optional = false)
@@ -51,6 +47,10 @@ public class Bolsapuntos {
     private Integer montoOperacion;
 
 
+  //id perteneciente a la tabla de cliente
+  @JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
+  @ManyToOne(optional = false)
+  private Cliente cliente;
 
     public Bolsapuntos() {
     }

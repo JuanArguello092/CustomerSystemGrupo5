@@ -32,10 +32,6 @@ public class Vencimiento{
     @Basic (optional = false)
     private Integer diasDuracion;
 
-    @JoinColumn(name="id_puntos",referencedColumnName = "id_puntos")
-    @OneToOne
-    private Puntos puntos;
-
 
     public Vencimiento() {
     }
@@ -72,12 +68,5 @@ public class Vencimiento{
         this.diasDuracion = diasDuracion;
     }
 
-    public Puntos getPuntos() {
-        return puntos;
-    }
-
-    public void setPuntos(Puntos puntos) {
-        this.puntos = puntos;
-    }
 
 }

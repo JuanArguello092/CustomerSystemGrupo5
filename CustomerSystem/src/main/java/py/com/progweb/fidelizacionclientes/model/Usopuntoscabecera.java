@@ -35,6 +35,8 @@ public class Usopuntoscabecera {
     @Basic(optional = false)
     private String concepto;
 
+    @OneToMany(mappedBy = "usopuntoscabecera")
+    private List<Usopuntosdetalle> listaUsopuntosdetallesList;
 
     public Usopuntoscabecera() {
     }
@@ -79,5 +81,11 @@ public class Usopuntoscabecera {
         this.concepto = concepto;
     }
 
+  public List<Usopuntosdetalle> getListaUsopuntosdetallesList() {
+    return listaUsopuntosdetallesList;
+  }
 
+  public void setListaUsopuntosdetallesList(List<Usopuntosdetalle> listaUsopuntosdetallesList) {
+    this.listaUsopuntosdetallesList = listaUsopuntosdetallesList;
+  }
 }

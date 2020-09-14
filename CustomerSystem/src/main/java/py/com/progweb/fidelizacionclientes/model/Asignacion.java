@@ -32,15 +32,6 @@ public class Asignacion {
     @Basic (optional = false)
     private Integer monto;
 
-    //id perteneciente a la tabla de cliente
-    @JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
-    @ManyToOne(optional = false)
-    private Cliente cliente;
-
-    //id perteneciente a la tabla de puntos
-    @JoinColumn(name = "id_puntos", referencedColumnName = "id_puntos")
-    @ManyToOne(optional = false)
-    private Puntos puntos;
 
     public Asignacion() {
 
@@ -79,19 +70,4 @@ public class Asignacion {
         this.monto = monto;
     }
 
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
-    public Puntos getPuntos() {
-        return puntos;
-    }
-
-    public void setPuntos(Puntos puntos) {
-        this.puntos = puntos;
-    }
 }

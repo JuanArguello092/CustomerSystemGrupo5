@@ -26,13 +26,6 @@ public class Puntos {
     @Basic (optional = false)
     private Integer puntosRequeridos;
 
-    @OneToOne(mappedBy = "puntos")
-    private Vencimiento vencimiento;
-
-    @OneToMany(mappedBy = "puntos")
-    private List<Asignacion> listaAsignacion;
-
-
     public Puntos() {
     }
 
@@ -50,23 +43,6 @@ public class Puntos {
 
     public void setConcepto(String concepto) {
         this.concepto = concepto;
-    }
-
-
-   public List<Asignacion> getListaAsignacion() {
-        return listaAsignacion;
-    }
-
-    public void setListaAsignacion(List<Asignacion> listaAsignacion) {
-        this.listaAsignacion = listaAsignacion;
-    }
-
-    public Vencimiento getVencimiento() {
-        return vencimiento;
-    }
-
-    public void setVencimiento(Vencimiento vencimiento) {
-        this.vencimiento = vencimiento;
     }
 
     public Integer getPuntosRequeridos() {

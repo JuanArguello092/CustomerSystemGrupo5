@@ -28,102 +28,204 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2ea384a-95c6-41a8-aa54-ac31dad5b91b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/CustomerSystemGrupo5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CustomerSystem_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CustomerSystem_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a/storage_v2/_src_/database/CustomerDB._OSSGA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a/storage_v2/_src_/database/CustomerDB._OSSGA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a/storage_v2/_src_/database/CustomerDB._OSSGA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a/storage_v2/_src_/database/CustomerDB._OSSGA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_javax_ejb_api_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_bind_javax_json_bind_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mvc_javax_mvc_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/JBoss_18_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fidelizacionClientes/backend/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/classes/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.10.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.18.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.4.18.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.1.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.1.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/javax.mvc-api-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CustomerSystem-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/customersystem_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/customersystem_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ant_ant_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1_jbossorg_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__emma_emma_2_0_5312.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__emma_emma_ant_2_0_5312.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jacorb_idl_2_3_1jboss_patch01_brew.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jacorb_jacorb_2_3_1jboss_patch01_brew.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hornetq_hornetq_core_2_2_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_infinispan_infinispan_cachestore_jdbc_5_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_infinispan_infinispan_cachestore_remote_5_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_infinispan_infinispan_client_hotrod_5_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_infinispan_infinispan_core_5_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacorb_jacorb_2_3_1_jbossorg_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_build_config_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_clustering_common_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_clustering_infinispan_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_clustering_jgroups_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_connector_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_controller_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_controller_client_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_deployment_repository_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_domain_http_interface_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_domain_management_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_ee_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_ejb3_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_embedded_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_jacorb_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_naming_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_network_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_platform_mbean_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_process_controller_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_protocol_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_remoting_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_security_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_server_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_threads_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_transactions_7_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_classfilewriter_jboss_classfilewriter_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_com_sun_httpserver_httpserver_1_0_0_Beta3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ejb3_jboss_ejb3_ext_api_2_0_0_beta_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_integration_jboss_corba_ots_spi_6_0_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_interceptor_jboss_interceptor_spi_2_0_0_Alpha3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_invocation_jboss_invocation_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_common_api_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_common_impl_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_common_spi_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_core_api_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_core_impl_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_deployers_common_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_jdbc_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ironjacamar_ironjacamar_validator_1_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_javaee_jboss_transaction_api_1_0_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_common_core_2_2_17_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_dmr_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_ejb_client_1_0_0_Beta11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_iiop_client_1_0_0_Beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_transaction_spi_7_0_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_vfs_3_1_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jbossas_jboss_server_manager_1_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jbossts_jbossjts_4_16_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jbossts_jbossjts_integration_4_16_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_generator_1_0_0_CR4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_processor_1_0_0_CR4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_spi_2_2_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logmanager_jboss_logmanager_1_2_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logmanager_jboss_logmanager_log4j_1_0_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_3_4_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_river_1_3_4_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_metadata_jboss_metadata_common_7_0_0_Beta31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_metadata_jboss_metadata_ear_7_0_0_Beta31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_metadata_jboss_metadata_ejb_7_0_0_Beta31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_modules_jboss_modules_1_1_0_CR6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_msc_jboss_msc_1_0_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_naming_jnp_client_5_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting3_jboss_remoting_3_2_0_CR6_darranl_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting_jboss_remoting_2_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_sasl_jboss_sasl_1_0_0_Beta9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_security_jboss_negotiation_2_2_0_Beta3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_1_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_1_spec_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_jms_jboss_jms_api_1_1_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_resource_jboss_connector_api_1_6_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_rmi_jboss_rmi_api_1_0_spec_1_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_security_jacc_jboss_jacc_api_1_4_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jboss_servlet_api_3_0_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_1_1_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_rpc_jboss_jaxrpc_api_1_1_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_staxmapper_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_stdio_jboss_stdio_1_0_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_threads_jboss_threads_2_0_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ws_jbossws_api_1_0_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_0_0_CR5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_0_0_CR5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jgroups_jgroups_3_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picketbox_jboss_security_spi_3_0_0_CR2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picketbox_jbosssx_client_3_0_0_CR2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picketbox_picketbox_4_0_6_Beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picketbox_picketbox_commons_1_0_0_CR1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picketbox_picketbox_infinispan_4_0_6_Beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rhq_helpers_rhq_pluginAnnotations_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tanukisoft_wrapper_3_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/BolsapuntosDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/rest/VencimientoREST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a/storage_v2/_src_/database/CustomerDB._OSSGA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41c21c56-c984-4ff6-b229-8aa85e28709a/storage_v2/_src_/database/CustomerDB._OSSGA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_javax_ejb_api_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0_SP4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_bind_javax_json_bind_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mvc_javax_mvc_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/JBoss_18_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/JBoss_18_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customersystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customersystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/AsignacionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/AsignacionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/PuntosDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/PuntosDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/VencimientoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/ejb/VencimientoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Asignacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Asignacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Puntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Puntos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Vencimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/model/Vencimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/rest/AsignacionREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/rest/AsignacionREST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/rest/PuntosREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/fidelizacionclientes/rest/PuntosREST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/AsignacionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/AsignacionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/PuntosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/PuntosDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/VencimientoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/ejb/VencimientoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Asignacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Asignacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Puntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Puntos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Vencimiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/model/Vencimiento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/rest/AsignacionREST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/rest/AsignacionREST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/rest/PuntosREST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/fidelizacionclientes/rest/PuntosREST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/AsignacionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/AsignacionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/PuntosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/PuntosDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/VencimientoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/ejb/VencimientoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Asignacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Asignacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Puntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Puntos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Vencimiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/model/Vencimiento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/rest/AsignacionREST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/rest/AsignacionREST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/rest/PuntosREST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/customersystem/WEB-INF/classes/py/com/progweb/fidelizacionclientes/rest/PuntosREST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,12 +246,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1h3neORzWKPY6xX5IHBETmQbZnU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -164,11 +268,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$/Descargas/CustomerSystem" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28965518" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -321,6 +432,8 @@
       <workItem from="1599270828267" duration="146000" />
       <workItem from="1599342543481" duration="134000" />
       <workItem from="1599344297443" duration="779000" />
+      <workItem from="1600026426939" duration="7589000" />
+      <workItem from="1600045211756" duration="445000" />
     </task>
     <servers />
   </component>
@@ -340,10 +453,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="581" y="253" width="513" height="222" key="#Assign_Data_Sources" timestamp="1599344553376">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="611" y="285" width="513" height="222" key="#Assign_Data_Sources" timestamp="1600029975429">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state x="581" y="253" width="513" height="222" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1599344553376" />
+    <state x="611" y="285" key="#Assign_Data_Sources/53.27.1313.741@53.27.1313.741" timestamp="1600029975429" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1599249003941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -352,10 +466,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="152" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599250083042" />
-    <state x="117" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599269780354">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="165" y="27" width="1084" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600030510978">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state x="117" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599269780354" />
+    <state x="165" y="27" width="1084" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.27.1313.741@53.27.1313.741" timestamp="1600030510978" />
     <state x="487" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1599344806266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -364,26 +479,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="212" y="17" key="DBNavigator.ProjectSettingsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599270209182" />
-    <state x="396" y="209" key="FileChooserDialogImpl" timestamp="1599345123846">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="434" y="240" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600033933224">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state x="396" y="209" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599345123846" />
-    <state width="1291" height="330" key="GridCell.Tab.0.bottom" timestamp="1599270342042">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="434" y="240" width="424" height="484" key="FileChooserDialogImpl/53.27.1313.741@53.27.1313.741" timestamp="1600033933224" />
+    <state width="866" height="175" key="GridCell.Tab.0.bottom" timestamp="1600038520384">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state width="1291" height="330" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599270342042" />
-    <state width="1291" height="330" key="GridCell.Tab.0.center" timestamp="1599270342042">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="866" height="175" key="GridCell.Tab.0.bottom/53.27.1313.741@53.27.1313.741" timestamp="1600038520384" />
+    <state width="866" height="175" key="GridCell.Tab.0.center" timestamp="1600038520384">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state width="1291" height="330" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599270342042" />
-    <state width="1291" height="330" key="GridCell.Tab.0.left" timestamp="1599270342042">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="866" height="175" key="GridCell.Tab.0.center/53.27.1313.741@53.27.1313.741" timestamp="1600038520384" />
+    <state width="866" height="175" key="GridCell.Tab.0.left" timestamp="1600038520383">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state width="1291" height="330" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599270342042" />
-    <state width="1291" height="330" key="GridCell.Tab.0.right" timestamp="1599270342042">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="866" height="175" key="GridCell.Tab.0.left/53.27.1313.741@53.27.1313.741" timestamp="1600038520383" />
+    <state width="866" height="175" key="GridCell.Tab.0.right" timestamp="1600038520384">
+      <screen x="53" y="27" width="1313" height="741" />
     </state>
     <state width="1291" height="330" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599270342042" />
+    <state width="866" height="175" key="GridCell.Tab.0.right/53.27.1313.741@53.27.1313.741" timestamp="1600038520384" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1599250985200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -392,5 +512,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1599248962561" />
+    <state x="373" y="175" width="672" height="677" key="run.anything.popup" timestamp="1600033317999">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state x="373" y="175" width="672" height="677" key="run.anything.popup/53.27.1313.741@53.27.1313.741" timestamp="1600033317999" />
   </component>
 </project>

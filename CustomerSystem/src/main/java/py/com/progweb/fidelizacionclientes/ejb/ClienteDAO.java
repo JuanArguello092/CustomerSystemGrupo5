@@ -2,26 +2,22 @@ package py.com.progweb.fidelizacionclientes.ejb;
 
 
 import py.com.progweb.fidelizacionclientes.model.Cliente;
+import py.com.progweb.fidelizacionclientes.model.Puntos;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 @Stateless
-
-
 public class ClienteDAO {
     @PersistenceContext(unitName = "customersystemPU")
 
     private EntityManager em;
 
-
-    /*
-    Cada vez que querramos persistir una persona, persistimos tb su agenda.
-    Por cada persona, le pasamos la agenda.
-    * */
     public void agregar(Cliente entidad) {
         this.em.persist(entidad);
 
@@ -35,8 +31,45 @@ public class ClienteDAO {
     }
 
     public Object lista() {
-        Query q=this.em.createQuery("select c  from Cliente c  left join fetch c.listaAsignacion");
+        Query q=this.em.createQuery("select c  from Cliente c");
 
         return (List<Cliente>) q.getResultList();
     }
+
+    public void borrar(Integer id){
+        em.getTransaction().begin();
+        Cliente cliente = em.find(Cliente.class, id);
+        em.remove(cliente);
+        em.getTransaction().commit();
+    }
+  public Cliente obtenerPorId(Integer id){
+    Query q= em
+      .createQuery("select c from Cliente  c  WHERE c.id_cliente = :id")
+      .setParameter("id", id);
+
+    return (Cliente) q.getSingleResult();
+  }
+
+  public List<Cliente> listapornombre(String nombre) {
+    Query q= em
+      .createQuery("select c from Cliente c  WHERE c.nombre like :valor")
+      .setParameter("valor", nombre);
+    return q.getResultList();
+  }
+
+  public List<Cliente> listaporapellido(String apellido) {
+    Query q= em
+      .createQuery("select c from Cliente c  WHERE c.apellido like :valor")
+      .setParameter("valor", apellido);
+    return q.getResultList();
+  }
+
+  public List<Cliente> listaporcumple(String fecha) throws ParseException {
+    SimpleDateFormat formatoDelTexto = new SimpleDateFormat("yyyy-MM-dd");
+    String strFecha = fecha;
+    Query q= em
+      .createQuery("select c from Cliente c  WHERE c.fechaNacimiento= :valor")
+      .setParameter("valor", formatoDelTexto.parse(strFecha));
+    return q.getResultList();
+  }
 }

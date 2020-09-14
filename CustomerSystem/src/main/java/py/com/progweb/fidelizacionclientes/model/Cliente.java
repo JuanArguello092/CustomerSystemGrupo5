@@ -51,20 +51,17 @@ public class Cliente {
     @Temporal(TemporalType.DATE)
     private Date fechaNacimiento;
 
-   //lista de asignacion cliente
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "cliente")
-    private List<Asignacion> listaAsignacion;
 
     //lista de bolsa de puntos
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cliente")
     @LazyCollection(LazyCollectionOption.FALSE)
     private List<Bolsapuntos> listaBolsaPuntos;
 
-    //lista de uso de puntos cabecera
+ /*   //lista de uso de puntos cabecera
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cliente")
     @LazyCollection(LazyCollectionOption.FALSE)
     private List<Usopuntoscabecera> listaPuntosCab;
-
+*/
     public Cliente() {
     }
 
@@ -140,13 +137,7 @@ public class Cliente {
         this.fechaNacimiento = fechaNacimiento;
     }
 
-    public List<Asignacion> getListaAsignacion() {
-        return listaAsignacion;
-    }
 
-    public void setListaAsignacion(List<Asignacion> listaAsignacion) {
-        this.listaAsignacion = listaAsignacion;
-    }
 
     public List<Bolsapuntos> getListaBolsaPuntos() {
         return listaBolsaPuntos;
@@ -156,12 +147,12 @@ public class Cliente {
         this.listaBolsaPuntos = listaBolsaPuntos;
     }
 
-    public List<Usopuntoscabecera> getListaPuntosCab() {
+  /*  public List<Usopuntoscabecera> getListaPuntosCab() {
         return listaPuntosCab;
     }
 
     public void setListaPuntosCab(List<Usopuntoscabecera> listaPuntosCab) {
         this.listaPuntosCab = listaPuntosCab;
     }
-
+*/
 }
