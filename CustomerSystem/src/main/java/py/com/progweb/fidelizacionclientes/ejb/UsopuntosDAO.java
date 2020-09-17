@@ -31,7 +31,7 @@ public class UsopuntosDAO {
 
   public List<Usopuntoscabecera> consultaPorConcepto(String concepto) {
     Query q= entityManager
-      .createQuery("select usc from Usopuntoscabecera usc  WHERE usc.concepto = :valor")
+      .createQuery("select distinct usc.concepto, usc.puntajeUtilizado , function('to_char',usc.fecha,'yyyy-mm-dd'),usc.cliente.numeroDocumento, usc.cliente.nombre, usc.cliente.apellido from Usopuntoscabecera usc left join  usc.cliente.listaBolsaPuntos l WHERE usc.cliente.id_cliente=l.cliente.id_cliente and usc.concepto = :valor")
 
       .setParameter("valor", concepto);
     return q.getResultList();
@@ -41,14 +41,14 @@ public class UsopuntosDAO {
     String strFecha = fecha;
 
     Query q= entityManager
-      .createQuery("select usc from Usopuntoscabecera usc  WHERE usc.fecha = :valor")
+      .createQuery("select distinct usc.concepto, usc.puntajeUtilizado , function('to_char',usc.fecha,'yyyy-mm-dd'),usc.cliente.numeroDocumento, usc.cliente.nombre, usc.cliente.apellido from Usopuntoscabecera usc left join  usc.cliente.listaBolsaPuntos l WHERE usc.cliente.id_cliente=l.cliente.id_cliente and usc.fecha = :valor")
       .setParameter("valor", formatoDelTexto.parse(strFecha));
     return q.getResultList();
 
   }
   public List<Usopuntoscabecera> consultaPorCliente(Integer id_cliente) {
     Query q= entityManager
-      .createQuery("select usc from Usopuntoscabecera usc  WHERE usc.cliente.id_cliente = :valor")
+      .createQuery("select distinct usc.concepto, usc.puntajeUtilizado , function('to_char',usc.fecha,'yyyy-mm-dd'),usc.cliente.numeroDocumento, usc.cliente.nombre, usc.cliente.apellido from Usopuntoscabecera usc left join  usc.cliente.listaBolsaPuntos l WHERE usc.cliente.id_cliente=l.cliente.id_cliente and usc.cliente.id_cliente = :valor")
 
       .setParameter("valor", id_cliente);
     return q.getResultList();

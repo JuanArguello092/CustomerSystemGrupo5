@@ -13,6 +13,9 @@ public class PuntosREST {
 
     @Inject
     private PuntosDAO puntosDAO;
+
+  @Inject
+  private VencimientoDAO vencimientoDAO;
   @Inject
   private ClienteDAO clienteDAO;
   @Inject
@@ -74,8 +77,9 @@ public class PuntosREST {
   bp.setPuntajeAsignado(puntos);
   bp.setCliente(clienteDAO.obtenerPorId(id_cliente));
 
+    bp.setVencimiento(vencimientoDAO.obtenerPorId(1));
+    bolsapuntosDAO.cargarpuntos(bp);
 
-  bolsapuntosDAO.cargarpuntos(bp);
   return "puntos cargados correctamente";
   }
 

@@ -52,14 +52,14 @@ public class ClienteDAO {
 
   public List<Cliente> listapornombre(String nombre) {
     Query q= em
-      .createQuery("select c from Cliente c  WHERE c.nombre like :valor")
+      .createQuery("select distinct c.nombre,c.apellido,c.email,c.telefono, function('to_char',c.fechaNacimiento,'yyyy-mm-dd')  from Cliente c  left join c.listaBolsaPuntos l WHERE c.id_cliente=l.cliente.id_cliente AND c.nombre like :valor")
       .setParameter("valor", nombre);
     return q.getResultList();
   }
 
   public List<Cliente> listaporapellido(String apellido) {
     Query q= em
-      .createQuery("select c from Cliente c  WHERE c.apellido like :valor")
+      .createQuery("select distinct c.nombre,c.apellido,c.email,c.telefono, function('to_char',c.fechaNacimiento,'yyyy-mm-dd')  from Cliente c  left join c.listaBolsaPuntos l WHERE c.id_cliente=l.cliente.id_cliente AND c.apellido like :valor")
       .setParameter("valor", apellido);
     return q.getResultList();
   }
@@ -68,7 +68,7 @@ public class ClienteDAO {
     SimpleDateFormat formatoDelTexto = new SimpleDateFormat("yyyy-MM-dd");
     String strFecha = fecha;
     Query q= em
-      .createQuery("select c from Cliente c  WHERE c.fechaNacimiento= :valor")
+      .createQuery("select distinct c.nombre,c.apellido,c.email,c.telefono, function('to_char',c.fechaNacimiento,'yyyy-mm-dd')  from Cliente c left join c.listaBolsaPuntos l WHERE c.id_cliente=l.cliente.id_cliente AND c.fechaNacimiento= :valor")
       .setParameter("valor", formatoDelTexto.parse(strFecha));
     return q.getResultList();
   }

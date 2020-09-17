@@ -52,7 +52,19 @@ public class Bolsapuntos {
   @ManyToOne(optional = false)
   private Cliente cliente;
 
-    public Bolsapuntos() {
+  @JoinColumn(name = "id_vencimiento", referencedColumnName = "id_vencimiento")
+  @ManyToOne(optional = false)
+  private Vencimiento vencimiento;
+
+  public Vencimiento getVencimiento() {
+    return vencimiento;
+  }
+
+  public void setVencimiento(Vencimiento vencimiento) {
+    this.vencimiento = vencimiento;
+  }
+
+  public Bolsapuntos() {
     }
 
 

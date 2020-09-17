@@ -1,11 +1,15 @@
 package py.com.progweb.fidelizacionclientes.model;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 import javax.persistence.*;
 
 @Entity
@@ -33,10 +37,22 @@ public class Vencimiento{
     private Integer diasDuracion;
 
 
+  @OneToMany(cascade=CascadeType.ALL,mappedBy = "vencimiento")
+  @LazyCollection(LazyCollectionOption.FALSE)
+  private List<Bolsapuntos> listbolsaPuntos;
+
     public Vencimiento() {
     }
 
-    public Integer getId_vencimiento() {
+  public List<Bolsapuntos> getListbolsaPuntos() {
+    return listbolsaPuntos;
+  }
+
+  public void setListbolsaPuntos(List<Bolsapuntos> listbolsaPuntos) {
+    this.listbolsaPuntos = listbolsaPuntos;
+  }
+
+  public Integer getId_vencimiento() {
         return id_vencimiento;
     }
 
