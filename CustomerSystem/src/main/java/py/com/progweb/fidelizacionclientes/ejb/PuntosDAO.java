@@ -1,6 +1,7 @@
 package py.com.progweb.fidelizacionclientes.ejb;
 
 
+
 import py.com.progweb.fidelizacionclientes.model.Puntos;
 
 import javax.ejb.Stateless;
@@ -10,7 +11,7 @@ import javax.persistence.Query;
 import java.util.List;
 
 @Stateless
-public class PuntosDAO {
+public class PuntosDAO  {
     @PersistenceContext(unitName = "customersystemPU")
     private EntityManager entityManager;
 

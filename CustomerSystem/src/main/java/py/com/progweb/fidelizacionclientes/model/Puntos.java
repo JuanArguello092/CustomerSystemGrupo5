@@ -1,5 +1,8 @@
 package py.com.progweb.fidelizacionclientes.model;
 
+import py.com.progweb.fidelizacionclientes.util.interfaces.PuntosInterfaz;
+import py.com.progweb.fidelizacionclientes.util.interfaces.StrategyUsarPuntos;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -10,7 +13,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "puntos")
-public class Puntos {
+public class Puntos implements PuntosInterfaz, StrategyUsarPuntos {
     @Id
     @Column(name = "id_puntos")
     @Basic (optional = false)
@@ -51,5 +54,11 @@ public class Puntos {
 
     public void setPuntosRequeridos(Integer puntosRequeridos) {
         this.puntosRequeridos = puntosRequeridos;
+    }
+
+    @Override
+    public String usarPuntos(Integer puntos) {
+        int puntosutilizados= getPuntosRequeridos() - puntos;
+        return "Puntos utilizados" + puntosutilizados;
     }
 }
