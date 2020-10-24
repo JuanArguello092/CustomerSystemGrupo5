@@ -31,6 +31,12 @@ public class Puntos implements IPuntosInterfaz, IStrategyUsarPuntos, IPuntosComp
     public Puntos() {
     }
 
+    public Puntos(Integer id_puntos, String concepto, Integer puntosRequeridos) {
+        this.id_puntos = id_puntos;
+        this.concepto = concepto;
+        this.puntosRequeridos = puntosRequeridos;
+    }
+
     public Integer getId_puntos() {
         return id_puntos;
     }

@@ -43,6 +43,7 @@ public class Compra {
     public List<Puntos> getPuntos(){
         return puntos;
     }
+
     public void visualiza(){
         System.out.println("Contenido de la Compra");
         for (Puntos puntos: puntos)

@@ -15,7 +15,7 @@ instancia y proporciona un método único que la devuelve.
 */
 public class Cliente {
     // Declaracion de variable private y de clase Cliente
-    private static Cliente instancia;
+    private static Cliente instanciaCliente;
 
     // para evitar instancia mediante el operador new se define un metodo private
     private Cliente(){
@@ -23,11 +23,11 @@ public class Cliente {
 
     // Para obtener la instancia unicamente se debe invocar la clase con el metodo
     // static getInstance()
-    public static Cliente getInstance(){
-        if (instancia == null) {
-            instancia = new Cliente();
+    public static Cliente getCliente(){
+        if (instanciaCliente == null) {
+            instanciaCliente = new Cliente();
         }
-        return instancia;
+        return instanciaCliente;
     }
 
 

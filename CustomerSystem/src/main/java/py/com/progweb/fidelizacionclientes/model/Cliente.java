@@ -1,4 +1,5 @@
 package py.com.progweb.fidelizacionclientes.model;
+
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
